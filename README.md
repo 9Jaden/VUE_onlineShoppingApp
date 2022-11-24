@@ -1,24 +1,16 @@
-# app
+## VUE-大型前台电商平台项目 
 
-## Project setup
-```
-npm install
-```
+### 项目描述：
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+项目为包括首页、搜索列表、商品详情页、购物车、订单、支付、用户登录/注册等多个子模块的在线电商 SPA，项目采用模块化、组件化、工程化的模式开发 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 技术栈：
 
-### Lints and fixes files
-```
-npm run lint
-```
+Vuex + vue-router + Mock.js+ Axios + Swiper + Element-ui 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 项目难点及亮点：
+
+- 使用 vue-router 实现页面路由跳转构建单页面应用，并设立导航守卫拦截不合理路由跳转 
+- 通过面包屑词条增删以及点击排序实现交互性高的商品搜索页面 
+- 利用组件通信对非业务逻辑功能的组件（如轮播图、分页器等）进行抽离和封装 
+- 封装 axios 请求，添加 token 字段实现用户独立数据管理与呈现
